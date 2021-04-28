@@ -1,4 +1,3 @@
-import React from 'react';
 import { ADD_TODO, TOGGLE_TODO, DELETE_TODO } from './Todoaction';
 const Todoreducer = (state, action) => {
   switch (action.type) {

@@ -22,7 +22,7 @@ const Todoinput = () => {
   };
   return (
     <div>
-      <h3>useCONTEXT + useREDUCER TO-DO LIST</h3>
+      <h3> TO-DO LIST (useCONTEXT + useREDUCER)</h3>
       <form onSubmit={onSubmitHandler}>
         <input
           type='text'
